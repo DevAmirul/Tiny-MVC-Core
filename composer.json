@@ -1,0 +1,27 @@
+{
+    "name": "DevAmirul/Tiny-MVC-Framework",
+    "description": "This is a tiny PHP MVC framework, with which a crud application can be built.The framework is not well tested on production. If you use it on production you use it on your own risk.",
+    "type": "framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "App\\Core\\": "app/core",
+            "App\\Core\\FormTemplate\\": "app/core/formTemplate",
+            "App\\Controllers\\": "app/controllers",
+            "App\\Models\\": "app/models",
+            "App\\Enums\\": "app/enums",
+            "App\\Middleware\\": "app/middleware",
+            "App\\Core\\Exception\\": "app/core/exception"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amirul islam",
+            "email": "dev.amirul@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "5.5.x-dev"
+    }
+}
